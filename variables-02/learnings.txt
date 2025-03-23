@@ -1,0 +1,28 @@
+//AI generated!
+
+Variables and Constants:
+
+Variables store data that can change during program execution.
+Constants store data that remains constant.
+Variable Declaration:
+
+var variableName dataType = value
+
+Example: var age int = 30
+
+Short Declaration:
+
+variableName := value (type is inferred)
+Example: name := "Akdev"
+
+Constant Declaration:
+
+const constantName = value
+Example: const pi = 3.14
+
+Data Types:
+
+int: Integers (e.g., 10, -5).
+float64: Floating-point numbers (e.g., 3.14, 2.71).
+string: Text (e.g., "Hello").
+bool: Boolean values (true or false).
