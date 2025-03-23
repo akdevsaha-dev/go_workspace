@@ -1,0 +1,37 @@
+*****NOTES*****
+
+``
+package main
+
+func main() {
+	const age1 int = 30
+	age2 := 25 // short hand declaration -- type inferred.
+	if age1 > age2 {
+		return true
+	} else {
+		return false
+	}
+}
+``
+
+Note the above code is wrong because-
+You’re trying to return true or return false inside main(), but in Go:
+	•	main() has no return type — it must not return anything.
+	•	Returning values from main() causes a compilation error.
+
+- For the corrected version of the code you can check main.go
+
+
+//You can make the main.go code shorted by using the comparison directly.
+
+``
+package main
+
+import "fmt"
+                     
+func main() {
+	const age1 int = 30
+	age2 := 25
+	fmt.Println(age1 < age2)
+}
+``
