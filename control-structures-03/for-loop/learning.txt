@@ -1,0 +1,3 @@
+Difference between for loop in Go vs. other languages:
+Go's for loop is more versatile. It can replace while loops and do-while loops.
+Go does not have while or do while loops.

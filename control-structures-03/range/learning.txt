@@ -1,0 +1,49 @@
+// SOME IMPORTANT STUFFS
+
+
+Example 2 — Ignoring the Index
+
+If you only need values, use _ to ignore the index:
+
+``
+for _, value := range numbers {
+	fmt.Println(value)
+}
+``
+
+
+Example 3 — Iterating Over a Map
+
+``
+person := map[string]int{"Alice": 30, "Bob": 25}
+
+for key, value := range person {
+	fmt.Println("Name:", key, "Age:", value)
+}
+``
+
+
+Example 4 — Iterating Over a String
+
+``
+text := "GoLang"
+
+for index, char := range text {
+	fmt.Printf("Index: %d Character: %c\n", index, char)
+}
+``
+
+Data Type         range returns
+Slice/Array       index, value
+Map               key, value
+String            index, rune (Unicode code point)
+Channel           value (only one return)
+
+
+//If you only need the index:
+
+``
+for i := range numbers {
+	fmt.Println(i)
+}
+``

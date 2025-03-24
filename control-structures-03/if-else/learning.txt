@@ -28,7 +28,7 @@ You’re trying to return true or return false inside main(), but in Go:
 package main
 
 import "fmt"
-                     
+                       
 func main() {
 	const age1 int = 30
 	age2 := 25
