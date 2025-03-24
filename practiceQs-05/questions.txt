@@ -1,0 +1,48 @@
+🚀 Basic Level
+	1.	Simple Calculator
+	•	Take two numbers and an operator (+, -, *, /) as input from the user.
+	•	Perform the operation and print the result.
+	2.	Odd or Even Checker
+	•	Ask the user to enter a number.
+	•	Print whether the number is odd or even.
+	3.	Age Checker
+	•	Take the user’s age as input.
+	•	Print if the user is eligible to vote (age >= 18).
+	4.	Area of Circle
+	•	Take the radius as input.
+	•	Calculate and print the area of the circle (Area = π * r * r).
+
+⸻
+
+🚀 Intermediate Level
+	5.	Number Guessing Game
+	•	Hardcode a number.
+	•	Let the user guess the number in a loop.
+	•	Print “Correct!” when they guess it right.
+	6.	Factorial Calculator
+	•	Take a number as input.
+	•	Calculate its factorial using a for loop.
+	•	Print the result.
+	7.	Sum of N Numbers
+	•	Take N from the user.
+	•	Input N numbers and print their sum.
+	8.	Multiplication Table Generator
+	•	Take a number as input.
+	•	Print its multiplication table up to 10.
+
+⸻
+
+🚀 Advance Practice
+	9.	Check Prime Number
+	•	Ask the user to enter a number.
+	•	Print whether the number is prime or not.
+	10.	Fibonacci Series Generator
+	•	Take a number n as input.
+	•	Print the first n numbers in the Fibonacci series.
+	11.	Palindrome Number Checker
+	•	Take a number as input.
+	•	Check if it’s a palindrome (reads the same forward and backward).
+	12.	Basic Grading System
+	•	Take marks for 5 subjects.
+	•	Calculate percentage and print grade based on percentage:
+	•	A (>=90), B (>=80), C (>=70), D (>=60), Fail (<60)
